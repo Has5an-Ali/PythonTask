@@ -1,9 +1,8 @@
+#Design a BMI system both in (US and Metric unit) .
 
+height= int(input("Please Enter your hieght in Inches "))
+weight= int(input("Please Enter your weight in lbs "))
 
-num1 = input("Please enter any number ")
-num2 = input("Please enter any number " )
+bmi = weight/(height**2)*783
 
-if (num1== num2):
-    print("Equal ")
-else:
-    print("Not Equal ")
+print(bmi)
